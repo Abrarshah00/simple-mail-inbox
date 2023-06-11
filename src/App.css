@@ -1,0 +1,38 @@
+.sidesheet-sidebar {
+  display: none;
+}
+.responsive-single-mail-view {
+  display: none;
+}
+
+.single-mail-view {
+  display: block;
+}
+
+.responsive-mail-list-view {
+  display: none;
+}
+.mail-list-view {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .sidebar-wrapper {
+    display: none;
+  }
+  .sidesheet-sidebar {
+    display: block;
+  }
+  .responsive-single-mail-view {
+    display: block;
+  }
+  .single-mail-view {
+    display: none;
+  }
+  .responsive-mail-list-view {
+    display: block;
+  }
+  .mail-list-view {
+    display: none;
+  }
+}

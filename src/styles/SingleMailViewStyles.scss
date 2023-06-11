@@ -1,0 +1,15 @@
+.single-mail-view-box {
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.single-mailview-back-option {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .single-mailview-back-option {
+    display: block;
+  }
+}

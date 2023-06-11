@@ -1,0 +1,38 @@
+.mail-list-view-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  //   margin-bottom: 10px;
+  //   background-color: white;
+  padding: 10px;
+  //   border-radius: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+}
+
+.mail-list-view-active-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  //   margin-bottom: 10px;
+  background-color: #f7fbff;
+  padding: 10px;
+  //   border-radius: 5px;
+  cursor: pointer;
+  border-left: 2px solid blue;
+  border-bottom: 1px solid lightgray;
+}
+
+.mail-list-wrapper {
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.mail-list-view-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mail-list-view-card-content {
+}
